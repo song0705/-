@@ -36,5 +36,5 @@ jobs:
 
     - name: Push Docker image to Docker Hub
       run: |
-        docker tag my-python-app your-dockerhub-username/my-python-app:latest
-        docker push your-dockerhub-username/my-python-app:latest
+        docker tag my-python-app song0705/my-python-app:latest
+        docker push song0705/my-python-app:latest
